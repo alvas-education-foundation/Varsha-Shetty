@@ -1,0 +1,21 @@
+
+#include<stdio.h>
+int main()
+{ 
+    char s[24];
+    int n,length=0,i;
+    for(i=0;i<s[i];i++)
+    {
+    scanf("%d",&s[i]);
+    }
+    length=strlen(s);
+    scanf("%d",&n);
+    if(length<=23&&n>=500&&n<=1000)
+    {
+      printf("Take Medicine");
+    }
+    else
+    {
+        printf("Don't take Medicine");
+    }
+}
